@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+}
+.container {
+
+}
+
+.input {
+    width: fit-content;
+}
+
+.error {
+    color: red;
+}
+
+.subwords {
+    border: 1px solid grey;
+}
+
+.subwords-list {
+    border: 1px solid red;
+    height: 100%;
+}
