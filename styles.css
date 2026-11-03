@@ -1,23 +1,46 @@
+html {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .header {
     display: flex;
-}
-.container {
-
+    align-items: center;
 }
 
-.input {
-    width: fit-content;
+.header h1, p {
+    margin: 0;
+}
+
+.header p {
+    margin-bottom: 20px; 
+}
+
+.nav-links {
+    margin-left: auto;
+    
+}
+
+
+.nav-links a {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    text-decoration: underline;
 }
 
 .error {
     color: red;
+    display: none;
 }
 
 .subwords {
     border: 1px solid grey;
+    margin-top: 2rem;
 }
 
-.subwords-list {
-    border: 1px solid red;
-    height: 100%;
+.subwords h2 {
+    margin-left: 12px;
 }

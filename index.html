@@ -5,27 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Subword Finder</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="header">
-        <h1>Subword Finder</h1>
-        <p>Find all the subwords that can be made from a word!</p>
-
+        <div class="web-title">
+            <h1>Subword Finder</h1>
+            <p>Find all the subwords that can be made from a word!</p>
+        </div>
         <nav class="nav-links">
             <a href="#">About the creator</a>
             <a href="#">Contact the creator</a>
         </nav>
     </div>
     <div class="container">
+        <span>Type in a word to find its subwords &rarr;</span>
         <input type="text" class="input" id="input"></input>
         <button class="search-btn">Go</button>
-        <p class="error">Invalid Word (check if it contains characters that aren't letters)</p>
+        <p class="error">Error: invalid word (check if it contains characters that aren't letters)</p>
 
         <section class="subwords">
             <h2>List of Subwords</h2>
             <div class="subwords-list"></div>
         </section>
     </div>
+
+    
     
 </body>
 </html>
