@@ -21,12 +21,12 @@
     <div class="container">
         <span>Type in a word to find its subwords &rarr;</span>
         <input type="text" class="input" id="input"></input>
-        <button class="search-btn">Go</button>
-        <p class="error">Error: invalid word (check if it contains characters that aren't letters)</p>
+        <button class="search-btn" id="search">Go</button>
+        <p class="error" id="error">Error: invalid word (either not in dictionary, or invalid chracters)</p>
 
         <section class="subwords">
             <h2>List of Subwords</h2>
-            <div class="subwords-list"></div>
+            <div class="subwords-list" id="subwords-list"></div>
         </section>
     </div>
 
